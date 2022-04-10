@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Lamella';
+  src: local('Lamella'), url(../fonts/Lamella\ demo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AriellaHaileyDemoRegular';
+  src: local('AriellaHaileyDemoRegular'), url(../fonts/AriellaHaileyDemoRegular.ttf) ;
+}
+
+@font-face {
+  font-family: 'GoldyRyderDemoItalic';
+  src: local('GoldyRyderDemoItalic'), url(../fonts/GoldyRyderDemoItalic.ttf);
+}
+
+@font-face {
+  font-family: 'GoldyRyderDemoRegular';
+  src: local('GoldyRyderDemoRegular'), url(../fonts/GoldyRyderDemoRegular.ttf);
+}
+@font-face {
+  font-family: 'Katukupersonaluse';
+  src: local('Katukupersonaluse'), url(../fonts/Katukupersonaluse.otf);
+}
+
+@font-face {
+  font-family: 'ExtraOrnamentalNo2';
+  src: local('ExtraOrnamentalNo2'), url(../fonts/ExtraOrnamentalNo2.ttf);
+}
+@font-face {
+  font-family: 'ColoPro';
+  src: local('ColoPro'), url(../fonts/Colo\ Pro\ Black.otf);
+}
+@font-face {
+  font-family: 'Inline';
+  src: local('Inline'), url(../fonts/Colo\ Pro\ Inline.otf);
+}
+@font-face {
+  font-family: 'Dalek';
+  src: local('Dalek'), url(../fonts/Dalek.otf);
+}
+@font-face {
+  font-family: 'FryPro';
+  src: local('FryPro'), url(../fonts/FryPro.otf);
+}
+@font-face {
+  font-family: 'Giza';
+  src: local('Giza'), url(../fonts/Giza.otf);
+}
+@font-face {
+  font-family: 'GizaStencil';
+  src: local('GizaStencil'), url(../fonts/Giza\ Stencil.otf);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  list-style: none;
+  border: none;
+}
+
+.MyPic {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* padding: 2em 1em; */
+  background-image: url("../public/Pics/Codding2.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  min-width: 200px;
+  min-height: 70px;
+  vertical-align: middle;
+  overflow: hidden;
+  float: left;
+}
+
+
+.Portfolio {
+  transition: border-width 0.5s ease-in-out;
+  border-style: solid;
+  border-color: transparent #33ffff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 0;
+  /* box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 200px 200px 0 0;
+  border-radius: 0; */
+  background: #fff;
+}
+
+.GoToPortfolio {
+  color: black;
+  position: absolute;
+  transform: rotate(-225deg);
+  text-decoration: none;
+  bottom: 44px;
+  right: -210px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.About {
+  transition: border-width 0.5s ease-in-out;
+  border-style: solid;
+  border-color: transparent #33ffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0;
+  /* box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 0 200px 200px 0;
+  border-radius: 0; */
+  background: #fff;
+}
+
+.GoToAbout {
+  color: black;
+  position: absolute;
+  transform: rotate(45deg);
+  text-decoration: none;
+  top: 44px;
+  right: -190px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Home {
+  transition: border-width 0.5s ease-in-out;
+  border-style: solid;
+  border-color: transparent #33ffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 0;
+  /* box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 0 0 200px 200px;
+  border-radius: 0; */
+  background: #fff;
+}
+
+.GoToHome {
+  color: black;
+  position: absolute;
+  transform: rotate(-45deg);
+  text-decoration: none;
+  top: 44px;
+  left: -190px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Skills {
+  transition: border-width 0.5s ease-in-out;
+  border-style: solid;
+  border-color: transparent #33ffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-width: 0;
+  background: #fff;
+}
+
+.GoToSkills {
+  color: black;
+  position: absolute;
+  transform: rotate(225deg);
+  text-decoration: none;
+  bottom: 44px;
+  left: -190px;
+  font-size: 45px;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+.leftdown:hover .Skills {
+  background-color: red;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 200px 0 0 200px;
+  border-radius: 0;
+}
+
+.leftdown {
+  position: absolute;
+  font-size: 80px;
+  cursor: pointer;
+  font-weight: bold;
+  left: 190px;
+  bottom: 182px;
+  color: #48f105;
+}
+
+.rightdown {
+  position: absolute;
+  font-size: 80px;
+  cursor: pointer;
+  right: 190px;
+  bottom: 182px;
+  color: #48f105;
+}
+
+.rightup {
+  position: absolute;
+  font-size: 80px;
+  cursor: pointer;
+  right: 190px;
+  top: 156px;
+  color: #48f105;
+}
+
+
+.leftup {
+  position: absolute;
+  font-size: 80px;
+  cursor: pointer;
+  font-weight: bold;
+  left: 190px;
+  top: 156px;
+  color: #48f105;
+}
+
+.openleftdown {
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 200px 0 0 200px;
+  border-radius: 0;
+}
+.openleftup {
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 0 0 200px 200px;
+  border-radius: 0;
+}
+.openrightup {
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 0 200px 200px 0;
+  border-radius: 0;
+}
+.openrightdown {
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  border-width: 200px 200px 0 0;
+  border-radius: 0;
+}
+
+.AboutPage,.HomePage,.PortfolioPage,.SkillPage{
+width:60%;
+position: absolute;
+top: 50%;
+right: 50%;
+transform: translate(50%,-50%);
+margin: auto;
+text-align: center;
+}
+
+.value{
+  font-size: 50px;
+  color:#fff;
+  font-family: FryPro, serif;
+  text-shadow: 0 0 10px #05f1ab, 0 0 20px #05f1ab, 0 0 30px #05f1ab, 0 0 40px #05f1ab, 0 0 50px #05f1ab, 0 0 60px #05f1ab, 0 0 70px #05f1ab;
+
+}
+
+.key{
+  font-size: 50px;
+  color:#fff;
+  font-family: Katukupersonaluse, serif;
+  margin-right: 20px;
+  text-shadow: 0 0 10px #48f105, 0 0 20px #48f105, 0 0 30px #48f105, 0 0 40px #48f105, 0 0 50px #48f105, 0 0 60px #48f105, 0 0 70px #05f1ab;
+}
+
+.AboutPage p{
+  color: blue;
+  font-size: 26px;
+  font-family: FryPro, serif;
+  background-color: rgba(230, 221, 221, 0.5);
+  padding: 10px;
+}
+
+.HomePage{
+  color:#fff;
+  font-family: Dalek, serif;
+}
+
+.SkillPage{
+  font-size: 30px;
+  color:#fff;
+  font-family: FryPro, serif;
+  margin-right: 40px;
+  text-shadow: 0 0 10px #48f105, 0 0 20px #48f105, 0 0 30px #48f105, 0 0 40px #48f105, 0 0 50px #48f105, 0 0 60px #48f105, 0 0 70px #05f1ab;
+
+}
+
+.skillHeader{
+  margin-bottom: 50px;
+  text-align: center;
+  text-shadow: 0 0 10px #05f1ab, 0 0 20px #05f1ab, 0 0 30px #05f1ab, 0 0 40px #05f1ab, 0 0 50px #05f1ab, 0 0 60px #05f1ab, 0 0 70px #05f1ab;
+  font-size: 60px;
+}
+.SkillPage ul{
+margin-right: 40px;
+}
+
+
+
+.Projects{
+  width: 300px;
+  height: 240px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.Projects img{
+  width: 300px;
+  height: 200px;
+}
+.ProjectName{
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 0 0 10px #48f105, 0 0 20px #48f105, 0 0 30px #48f105, 0 0 40px #48f105, 0 0 50px #48f105, 0 0 60px #48f105, 0 0 70px #05f1ab;
+  color: #000;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #05f1ab, 0 0 20px #05f1ab, 0 0 30px #05f1ab, 0 0 40px #05f1ab, 0 0 50px #05f1ab, 0 0 60px #05f1ab, 0 0 70px #05f1ab;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.Slogan {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #48f105, 0 0 20px #48f105, 0 0 30px #48f105, 0 0 40px #48f105, 0 0 50px #48f105, 0 0 60px #48f105, 0 0 70px #05f1ab;
+  text-align: center;
+}

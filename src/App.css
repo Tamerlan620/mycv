@@ -1,0 +1,107 @@
+@media screen and (max-width: 480px) {
+  .glow {font-size: 30px!important;}
+  .Slogan {
+    font-size: 50px;
+  }
+
+  .leftdown,.rightdown,.rightup,.leftup{
+    font-size: 50px;
+  }
+  .leftdown{
+    left: 94px;
+    bottom: 90px;
+  }
+  .rightdown{
+    right: 94px;
+    bottom: 90px;
+  }
+  .rightup{
+    right: 94px;
+    top: 72px;
+  }
+  .leftup{
+    left: 94px;
+    top: 72px;
+  }
+
+  .openleftdown {
+    border-width: 100px 0 0 100px;
+  }
+  .openleftup {
+    border-width: 0 0 100px 100px;
+  }
+  .openrightup {
+    border-width: 0 100px 100px 0;
+  }
+  .openrightdown {
+    border-width: 100px 100px 0 0;
+  }
+
+  .GoToHome {
+    top: 21px;
+    left: -102px;
+    font-size: 25px;
+  }
+  .GoToSkills {
+    bottom: 21px;
+    left: -102px;
+    font-size: 25px;
+  }
+  .GoToAbout {
+    top: 21px;
+    right: -102px;
+    font-size: 25px;
+  }
+  .GoToPortfolio {
+    bottom: 21px;
+    right: -112px;
+    font-size: 25px;
+  }
+
+  .AboutPage{
+    width: 80%;
+  }
+  .value{
+    font-size: 18px;  
+  }
+  .key{
+    font-size: 18px;
+ }
+  .AboutPage p{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .SkillPage{
+    font-size: 18px;
+    margin-right: 0px;
+    width: 80%;
+    text-align: center;
+  }
+  .SkillPage ul{
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 0;
+  }
+
+  .PortfolioPage{
+    width: 80%;
+  }
+
+  .Projects{
+    width: 120px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  
+  .Projects img{
+    width: 120px;
+    height: 80px;
+  }
+  .ProjectName{
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+ 
+}
