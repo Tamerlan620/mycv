@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6bde0eb8.css",
+    "main.js": "/static/js/main.963eff65.js",
+    "static/media/Codding2.jpg": "/static/media/Codding2.f245f15d44d511d97605.jpg",
+    "static/media/AriellaHaileyDemoRegular.ttf": "/static/media/AriellaHaileyDemoRegular.5811fdd451aaaec7660e.ttf",
+    "static/media/GoldyRyderDemoItalic.ttf": "/static/media/GoldyRyderDemoItalic.ee876a57f5d4428d6401.ttf",
+    "static/media/GoldyRyderDemoRegular.ttf": "/static/media/GoldyRyderDemoRegular.852c17f66cc48caf3d1c.ttf",
+    "static/media/Giza.otf": "/static/media/Giza.72adee47ddca605577d8.otf",
+    "static/media/Dalek.otf": "/static/media/Dalek.803b7860c40c10495860.otf",
+    "static/media/FryPro.otf": "/static/media/FryPro.c34c21b134db9242cb1d.otf",
+    "static/media/Colo Pro Inline.otf": "/static/media/Colo Pro Inline.4bc8e66b9b7e77c35fca.otf",
+    "static/media/Giza Stencil.otf": "/static/media/Giza Stencil.558ac1d4d04f72dd1161.otf",
+    "static/media/ExtraOrnamentalNo2.ttf": "/static/media/ExtraOrnamentalNo2.bf4563fc2c3fdbb26e43.ttf",
+    "static/media/Colo Pro Black.otf": "/static/media/Colo Pro Black.2d8e081f111976650846.otf",
+    "static/media/Lamella demo.ttf": "/static/media/Lamella demo.69c00b03e225656c4662.ttf",
+    "static/media/Katukupersonaluse.otf": "/static/media/Katukupersonaluse.6f374543774a4fb8f38a.otf",
+    "index.html": "/index.html",
+    "main.6bde0eb8.css.map": "/static/css/main.6bde0eb8.css.map",
+    "main.963eff65.js.map": "/static/js/main.963eff65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bde0eb8.css",
+    "static/js/main.963eff65.js"
+  ]
+}
