@@ -1,6 +1,5 @@
 import React from 'react';
 import MyCv from './MyCv'
-import Welcome from './Welcome';
 import About from './About';
 import Home from './Home';
 import Skills from './Skills';
