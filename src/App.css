@@ -103,5 +103,45 @@
     font-weight: bold;
   
   }
+
+  .my-Projects{
+    justify-content: center;
+  }
  
+}
+
+.Resume{
+  background-color: transparent;
+  outline: none;
+  text-shadow: 0 0 10px #05f1ab, 0 0 20px #05f1ab, 0 0 30px #05f1ab, 0 0 40px #05f1ab, 0 0 50px #05f1ab, 0 0 60px #05f1ab, 0 0 70px #05f1ab;
+}
+
+.Resumebutton{
+  text-decoration: none!important;
+  color: #ffffffb2;
+  transition: .2S;
+}
+
+.Resumebutton:hover{
+  color: #fff;
+  transition: .2S;
+}
+
+.language{
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+  right: 160px;
+}
+
+.language input{
+  color: #fff;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.activelanguage{
+  text-decoration: underline;
+  color: red!important;
+  
 }

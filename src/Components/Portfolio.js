@@ -1,72 +1,42 @@
 import React from "react";
 
 
-class Portfolio extends React.Component {
-    state = {
-        MyProjects: [
-            {
-                id: 1,
-                name: 'FullStackProject',
-                URL: 'https://e-ticaretproject.000webhostapp.com/index.php',
-                Picture: './Pics/1.jpg'
-
-            },
-            {
-                id: 2,
-                name: 'Relax',
-                URL: 'https://tamerlan620.github.io/Test9',
-                Picture: './Pics/2.jpg'
-
-            },
-            {
-                id: 3,
-                name: 'Snapshoot',
-                URL: 'https://tamerlan620.github.io/Snabshoot',
-                Picture: './Pics/3.jpg'
-
-            },
-            {
-                id: 4,
-                name: 'Developer',
-                URL: 'https://tamerlan620.github.io/Type-project',
-                Picture: './Pics/4.jpg'
-
-            },
-            {
-                id: 5,
-                name: 'Technologi',
-                URL: 'https://tamerlan620.github.io/MyNewApp',
-                Picture: './Pics/5.jpg'
-
-            },
-            {
-                id: 6,
-                name: 'OnlineStore',
-                URL: 'https://tamerlan620.github.io/Online_store',
-                Picture: './Pics/6.jpg'
-
-            }
-        ]
-    }
-
-    render() {
-        const MyProjects = this.state.MyProjects;
+const  Portfolio = ({MyProjects,selected,setSelected,selectedLanguage})=> {
+  
+    
         return (
-            <div className="PortfolioPage d-flex flex-wrap justify-content-between">
-                {
-                    MyProjects.map((Project) => (
-                        <div key={Project.id} className="Projects"><a href={Project.URL}>
-                            <img className="ProjectImg" src={require(`${Project.Picture}`)} alt="" />
-                        </a>
-                            <h3 className="ProjectName">{Project.name}</h3>
+            <div className="PortfolioPage">
+                <div className="d-flex projectType">
+                    <h1 onClick={()=>setSelected(true)} className={`w-100 ${selected ? "active" : "passive"}`}>
+                    {
+                        selectedLanguage==="AZ" ?
+                        "Sadə" :
+                        "Basic"
+                        }
+                    
+                    </h1>
+                    <h1 onClick={()=>setSelected(false)} className={`w-100 ${selected ? "passive" : "active"}`}>React</h1>
+                </div>
+                <div className="disflex d-flex flex-wrap my-Projects">
+                    {
+                        
+                        MyProjects.filter(Project => Project.type===(selected ? "simple" : "react")).map(filteredData=>(
+                            
+                            <div key={filteredData.id} className="Projects">
+                            <a target="blank" href={filteredData.URL}>
+                                <img className="ProjectImg" src={require(`${filteredData.Picture}`)} alt="" />
+                            </a>
+                            <h3 className="ProjectName">{filteredData.name}</h3>
                         </div>
-                    ))
-                }
+                        ))
+                      
+                    }
+                </div>
 
 
             </div>
         )
-    }
+    
 }
 
 export default Portfolio

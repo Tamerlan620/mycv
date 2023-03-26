@@ -87,6 +87,15 @@ body {
   float: left;
 }
 
+.MyPic ul li a{
+  transition: .3s;
+}
+
+.MyPic ul li a:hover{
+  color: #48f105!important;
+  transition: .3s;
+}
+
 
 .Portfolio {
   transition: border-width 0.5s ease-in-out;
@@ -96,9 +105,6 @@ body {
   bottom: 0;
   right: 0;
   border-width: 0;
-  /* box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 200px 200px 0 0;
-  border-radius: 0; */
   background: #fff;
 }
 
@@ -107,9 +113,9 @@ body {
   position: absolute;
   transform: rotate(-225deg);
   text-decoration: none;
-  bottom: 44px;
-  right: -210px;
-  font-size: 45px;
+  bottom: 26px;
+  right: -146px;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -132,9 +138,9 @@ body {
   position: absolute;
   transform: rotate(45deg);
   text-decoration: none;
-  top: 44px;
-  right: -190px;
-  font-size: 45px;
+  top: 25px;
+  right: -128px;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -146,9 +152,6 @@ body {
   top: 0;
   left: 0;
   border-width: 0;
-  /* box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 0 0 200px 200px;
-  border-radius: 0; */
   background: #fff;
 }
 
@@ -157,9 +160,9 @@ body {
   position: absolute;
   transform: rotate(-45deg);
   text-decoration: none;
-  top: 44px;
-  left: -190px;
-  font-size: 45px;
+  top: 25px;
+  left: -128px;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -179,77 +182,72 @@ body {
   position: absolute;
   transform: rotate(225deg);
   text-decoration: none;
-  bottom: 44px;
-  left: -190px;
-  font-size: 45px;
+  bottom: 26px;
+  left: -120px;
+  font-size: 34px;
   font-weight: bold;
   z-index: 9999;
 }
 
-.leftdown:hover .Skills {
-  background-color: red;
-  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 200px 0 0 200px;
-  border-radius: 0;
-}
+
 
 .leftdown {
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   cursor: pointer;
   font-weight: bold;
-  left: 190px;
-  bottom: 182px;
+  left: 123px;
+  bottom: 117px;
   color: #48f105;
 }
 
 .rightdown {
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   cursor: pointer;
-  right: 190px;
-  bottom: 182px;
+  right: 123px;
+  bottom: 117px;
   color: #48f105;
 }
 
 .rightup {
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   cursor: pointer;
-  right: 190px;
-  top: 156px;
+  right: 122px;
+  top: 98px;
   color: #48f105;
 }
 
 
 .leftup {
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   cursor: pointer;
   font-weight: bold;
-  left: 190px;
-  top: 156px;
+  left: 122px;
+  top: 98px;
   color: #48f105;
 }
 
 .openleftdown {
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 200px 0 0 200px;
+  border-width: 130px 0 0 130px;
   border-radius: 0;
 }
 .openleftup {
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 0 0 200px 200px;
+  border-width: 0 0 130px 130px;
   border-radius: 0;
 }
 .openrightup {
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 0 200px 200px 0;
+  border-width: 0 130px 130px 0;
   border-radius: 0;
 }
 .openrightdown {
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
-  border-width: 200px 200px 0 0;
+  border-width: 130px 130px 0 0;
   border-radius: 0;
 }
 
@@ -268,7 +266,6 @@ text-align: center;
   color:#fff;
   font-family: FryPro, serif;
   text-shadow: 0 0 10px #05f1ab, 0 0 20px #05f1ab, 0 0 30px #05f1ab, 0 0 40px #05f1ab, 0 0 50px #05f1ab, 0 0 60px #05f1ab, 0 0 70px #05f1ab;
-
 }
 
 .key{
@@ -288,6 +285,7 @@ text-align: center;
 }
 
 .HomePage{
+  width: 80%;
   color:#fff;
   font-family: Dalek, serif;
 }
@@ -298,7 +296,6 @@ text-align: center;
   font-family: FryPro, serif;
   margin-right: 40px;
   text-shadow: 0 0 10px #48f105, 0 0 20px #48f105, 0 0 30px #48f105, 0 0 40px #48f105, 0 0 50px #48f105, 0 0 60px #48f105, 0 0 70px #05f1ab;
-
 }
 
 .skillHeader{
@@ -312,17 +309,37 @@ margin-right: 40px;
 }
 
 
+.active{
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 0 10px #05f1ab, 0 0 20px #05f1ab, 0 0 30px #05f1ab, 0 0 40px #05f1ab, 0 0 50px #05f1ab, 0 0 60px #05f1ab, 0 0 70px #05f1ab;
+  font-size: 50px;
+  border-bottom: 2px solid #05f1ab;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.passive{
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 0 10px #f10505, 0 0 20px #f10505, 0 0 30px #f10505, 0 0 40px #f10505, 0 0 50px #f10505, 0 0 60px #f10505, 0 0 70px #f10d05;
+  font-size: 50px;
+  border-bottom: 2px solid #05f1ab;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
 
 .Projects{
-  width: 300px;
-  height: 240px;
-  margin-bottom: 20px;
-  margin-right: 10px;
+  width: 32%;
+  height: 230px;
+  margin-bottom: 15px;
+  margin-right: 7px;
+  margin-left: 3px;
 }
 
 .Projects img{
-  width: 300px;
-  height: 200px;
+  width: 230px;
+  height: 180px;
 }
 .ProjectName{
   text-align: center;
@@ -353,3 +370,7 @@ margin-right: 40px;
   text-shadow: 0 0 10px #48f105, 0 0 20px #48f105, 0 0 30px #48f105, 0 0 40px #48f105, 0 0 50px #48f105, 0 0 60px #48f105, 0 0 70px #05f1ab;
   text-align: center;
 }
+
+
+
+
