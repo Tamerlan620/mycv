@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/http//:Tamerlan620.github.io/mycv/static/css/main.1c565dd7.css",
-    "main.js": "/http//:Tamerlan620.github.io/mycv/static/js/main.4484d769.js",
+    "main.css": "/http//:Tamerlan620.github.io/mycv/static/css/main.5cc5379e.css",
+    "main.js": "/http//:Tamerlan620.github.io/mycv/static/js/main.de12f047.js",
     "static/media/Codding8.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding8.b084b4b4b5da55337f18.jpg",
     "static/media/Codding10.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding10.b93ff92fb6e6d55ccb7e.jpg",
     "static/media/Codding5.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding5.f18d215f767f25f15942.jpg",
     "static/media/Codding3.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding3.22b670168844e7333ad6.jpg",
+    "static/media/MYCV-Dev.pdf": "/http//:Tamerlan620.github.io/mycv/static/media/MYCV-Dev.341056cdbba0093724d4.pdf",
     "static/media/Codding2.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding2.f245f15d44d511d97605.jpg",
     "static/media/Codding4.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding4.467ad52d6c03873689c2.jpg",
     "static/media/Codding7.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Codding7.4210da004218bfdff6de.jpg",
@@ -25,18 +26,22 @@
     "static/media/Giza Stencil.otf": "/http//:Tamerlan620.github.io/mycv/static/media/Giza Stencil.558ac1d4d04f72dd1161.otf",
     "static/media/1.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/1.92193a70337d45febc17.jpg",
     "static/media/2.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/2.6973cf887358a108839f.jpg",
+    "static/media/10.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/10.70259ae314e02025baef.jpg",
     "static/media/ExtraOrnamentalNo2.ttf": "/http//:Tamerlan620.github.io/mycv/static/media/ExtraOrnamentalNo2.bf4563fc2c3fdbb26e43.ttf",
+    "static/media/9.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/9.b7e26fafd06932eb66f1.jpg",
+    "static/media/8.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/8.05d027e996401bac8b3a.jpg",
     "static/media/5.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/5.5657df36037e5055aef8.jpg",
     "static/media/Colo Pro Black.otf": "/http//:Tamerlan620.github.io/mycv/static/media/Colo Pro Black.2d8e081f111976650846.otf",
     "static/media/Lamella demo.ttf": "/http//:Tamerlan620.github.io/mycv/static/media/Lamella demo.69c00b03e225656c4662.ttf",
     "static/media/Tamerlan.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/Tamerlan.93b66c848f4cdd5f7a68.jpg",
+    "static/media/7.jpg": "/http//:Tamerlan620.github.io/mycv/static/media/7.629e690a4d439b6311f2.jpg",
     "static/media/Katukupersonaluse.otf": "/http//:Tamerlan620.github.io/mycv/static/media/Katukupersonaluse.6f374543774a4fb8f38a.otf",
     "index.html": "/http//:Tamerlan620.github.io/mycv/index.html",
-    "main.1c565dd7.css.map": "/http//:Tamerlan620.github.io/mycv/static/css/main.1c565dd7.css.map",
-    "main.4484d769.js.map": "/http//:Tamerlan620.github.io/mycv/static/js/main.4484d769.js.map"
+    "main.5cc5379e.css.map": "/http//:Tamerlan620.github.io/mycv/static/css/main.5cc5379e.css.map",
+    "main.de12f047.js.map": "/http//:Tamerlan620.github.io/mycv/static/js/main.de12f047.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c565dd7.css",
-    "static/js/main.4484d769.js"
+    "static/css/main.5cc5379e.css",
+    "static/js/main.de12f047.js"
   ]
 }
